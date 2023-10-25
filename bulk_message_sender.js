@@ -1,4 +1,4 @@
-async function enviarScript(scriptText) {
+async function sendScript(scriptText) {
     const lines = scriptText.split(/[\n\t]+/).map(line => line.trim()).filter(line => line);
     const main = document.querySelector("#main");
     const textarea = main.querySelector(`div[contenteditable="true"]`);
@@ -31,7 +31,7 @@ async function enviarScript(scriptText) {
 // Ejemplo de uso
 (async () => {
     try {
-        const messagesSent = await enviarScript(`
+        const messagesSent = await sendScript(`
             HERE WE
             WILL PUT
             THE TEXT
