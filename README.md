@@ -54,7 +54,7 @@ Changed your mind about sending the messages? No problem!
 If you've set the script to dispatch messages at a certain time but wish to cancel, use the following command in the console:
 
 ```javascript
-cancelSending();
+cancel();
 ```
 
 ---
